@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8
+FROM registry.access.redhat.com/ubi8:latest
 ENV APP_ROOT=/opt
 WORKDIR ${APP_ROOT}
 RUN yum install -y java-11-openjdk-devel unzip procps
